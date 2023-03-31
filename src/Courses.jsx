@@ -44,7 +44,7 @@ function Courses({ courses, removeCourse }) {
     <div className="courseMainDiv">
       <div className="courseTitleAndButton">
         <h2>Kurslarım</h2>
-        <button className="cardDeleteBtn" onClick={getRandomCourse}>Rastgele Kurs Ata</button>
+        <button className="randomCourseBtn" onClick={getRandomCourse}>Rastgele Kurs Ata</button>
       </div>
       <div className="cardDiv">
         <button className="prevNext" onClick={prevCourse}>

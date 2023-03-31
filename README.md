@@ -3,10 +3,9 @@
 The technologies and methods that used in this project are as follows:
 
 - React JSX
-- React Hooks (useState, useEffect, useContext)
+- React Hooks (useState, useEffect)
 - Component Logic
 - Passing datas to child components
-- Passing datas to parent component from child component
 - HTTP Client called 'Axios'
 - NPM Package called 'json-server'
 - NPM Package called 'React Icons'
