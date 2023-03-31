@@ -36,3 +36,10 @@
 .refreshDiv{
   text-align: center;
 }
+
+.prevNext {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  color: red;
+}
