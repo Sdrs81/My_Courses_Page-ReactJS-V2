@@ -29,10 +29,22 @@ function Courses({ courses, removeCourse }) {
     })
   }
 
+  const getRandomCourse = () =>{
+
+    let randomNumber = Math.floor(Math.random()*courses.length)
+
+    if(randomNumber == index){
+        randomNumber = index + 1;
+    }
+
+    setIndex(checkIndex(randomNumber));
+  }
+
   return (
     <div className="courseMainDiv">
-      <div>
+      <div className="courseTitleAndButton">
         <h2>Kurslarım</h2>
+        <button className="cardDeleteBtn" onClick={getRandomCourse}>Rastgele Kurs Ata</button>
       </div>
       <div className="cardDiv">
         <button className="prevNext" onClick={prevCourse}>
